@@ -6,17 +6,6 @@ models:
         tests:
           - unique
           - not_null
-    meta:
-      hightouch:
-        model:
-          id: 4
-        destinations:
-          - id: 1
-            config:
-              sheetName: Sheet1
-              spreadsheetURL: https://docs.google.com/spreadsheets/d/1XsVenE1jZLJPYXBdXP9gq79kDlmhHVj0JPCJSCQaL6Y
-            schedule:
-              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
