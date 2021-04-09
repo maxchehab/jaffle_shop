@@ -16,8 +16,9 @@ models:
               table: public.users
               mappings: []
             schedule:
-              type: cron
-              expression: 38 11 * * *
+              type: interval
+              unit: minute
+              quantity: 5
   - name: stg_customers
     columns:
       - name: customer_id
