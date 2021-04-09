@@ -17,8 +17,8 @@ models:
               mappings: []
             schedule:
               type: interval
-              unit: day
-              quantity: 8
+              unit: week
+              quantity: 12
   - name: stg_customers
     columns:
       - name: customer_id
