@@ -17,7 +17,7 @@ models:
               mappings: []
             schedule:
               type: interval
-              unit: minutes
+              unit: minute
               quantity: 4
   - name: stg_customers
     columns:
