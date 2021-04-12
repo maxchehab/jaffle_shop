@@ -8,7 +8,7 @@ models:
           - not_null
     meta:
       hightouch:
-        model:
+        modelz:
           id: 5
         destinations:
           - id: 2
