@@ -10,7 +10,7 @@ models:
       hightouch:
         model:
           id: 5
-        destinationz:
+        destination:
           - id: 2
             config:
               table: public.users
