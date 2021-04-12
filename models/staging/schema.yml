@@ -8,9 +8,9 @@ models:
           - not_null
     meta:
       hightouch:
-        modelz:
+        model:
           id: 5
-        destinations:
+        destinationz:
           - id: 2
             config:
               table: public.users
