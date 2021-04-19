@@ -9,10 +9,11 @@ models:
     meta:
       hightouch:
         model:
-          id: 13475
+          id: 7
         destinations:
-          - id: 52854
+          - id: 2
             config:
+              table: public.users
               mappings: []
             schedule:
               type: manual
