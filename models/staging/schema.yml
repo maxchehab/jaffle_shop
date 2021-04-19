@@ -9,8 +9,13 @@ models:
     meta:
       hightouch:
         model:
-          id: 13445
-        destinations: []
+          id: 13475
+        destinations:
+          - id: 52854
+            config:
+              mappings: []
+            schedule:
+              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
