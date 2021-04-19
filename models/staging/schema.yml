@@ -9,7 +9,7 @@ models:
     meta:
       hightouch:
         model:
-          id: 13443
+          id: 13446
         destinations: []
   - name: stg_customers
     columns:
