@@ -16,9 +16,7 @@ models:
               table: public.users
               mappings: []
             schedule:
-              type: interval
-              unit: day
-              quantity: 5
+              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
