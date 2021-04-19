@@ -9,16 +9,16 @@ models:
     meta:
       hightouch:
         model:
-          id: 5
-        destination:
-          - id: 2
+          id: 13475
+        destinations:
+          - id: 52854
             config:
-              table: public.users
               mappings: []
+              changeMethod: PUT
+              subscribeAdd: true
+              autoSyncColumns: false
             schedule:
-              type: interval
-              unit: day
-              quantity: 6
+              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
