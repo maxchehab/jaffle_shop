@@ -9,8 +9,16 @@ models:
     meta:
       hightouch:
         model:
-          id: 13446
-        destinations: []
+          id: 13475
+        destinations:
+          - id: 52854
+            config:
+              mappings: []
+              changeMethod: PUT
+              subscribeAdd: true
+              autoSyncColumns: false
+            schedule:
+              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
