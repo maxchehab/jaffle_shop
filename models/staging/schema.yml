@@ -6,6 +6,19 @@ models:
         tests:
           - unique
           - not_null
+    meta:
+      hightouch:
+        model:
+          id: 13503
+        destinations:
+          - id: 52841
+            config:
+              table: public.users
+              mappings: []
+            schedule:
+              type: interval
+              unit: week
+              quantity: 1
   - name: stg_customers
     columns:
       - name: customer_id
