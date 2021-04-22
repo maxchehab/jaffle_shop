@@ -18,7 +18,7 @@ models:
             schedule:
               type: interval
               unit: week
-              quantity: 1
+              quantity: 2
   - name: stg_customers
     columns:
       - name: customer_id
