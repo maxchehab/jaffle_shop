@@ -9,23 +9,8 @@ models:
     meta:
       hightouch:
         model:
-          id: 13579
-        destinations:
-          - id: 52620
-            config:
-              mode: upsert
-              object: Contact
-              mappings:
-                - to: FirstName
-                  from: first_name
-                  type: standard
-              externalIdMapping:
-                to: email_key__c
-                from: email
-            schedule:
-              type: interval
-              unit: hour
-              quantity: 1
+          id: 13610
+        destinations: []
   - name: stg_customers
     columns:
       - name: customer_id
