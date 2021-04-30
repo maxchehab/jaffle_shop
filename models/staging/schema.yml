@@ -6,24 +6,6 @@ models:
         tests:
           - unique
           - not_null
-    meta:
-      hightouch:
-        model:
-          id: 13610
-        destinations:
-          - id: 52620
-            config:
-              mode: upsert
-              object: Contact
-              mappings:
-                - to: FirstName
-                  from: first_name
-                  type: standard
-              externalIdMapping:
-                to: email_key__c
-                from: email
-            schedule:
-              type: manual
   - name: stg_customers
     columns:
       - name: customer_id
