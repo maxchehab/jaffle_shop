@@ -1,18 +1,18 @@
 version: 2
-sync:
+syncs:
   - model:
-      id: 13610
+      id: 1
     destinations:
-      - id: 52620
+      - id: 1
         config:
-        mode: upsert
-        object: Contact
-        mappings:
-          - to: FirstName
-            from: first_name
-            type: standard
-        externalIdMapping:
-          to: email_key__c
-          from: email
-      schedule:
-        type: manual
+          mode: upsert
+          object: Contact
+          mappings:
+            - to: FirstName
+              from: first_name
+              type: standard
+          externalIdMapping:
+            to: email_key__c
+            from: email
+        schedule:
+          type: manual
