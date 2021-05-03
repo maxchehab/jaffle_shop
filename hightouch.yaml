@@ -16,3 +16,12 @@ syncs:
             from: email
         schedule:
           type: manual
+  - model:
+      id: 7
+    destinations:
+      - id: 2
+        config:
+          table: public.products
+          mappings: []
+        schedule:
+          type: manual
