@@ -7,4 +7,4 @@ syncs:
     schedule:
       type: interval
       unit: day
-      quantity: 10
+      quantity: 20
