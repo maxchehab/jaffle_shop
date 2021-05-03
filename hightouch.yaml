@@ -21,7 +21,7 @@ syncs:
     destinations:
       - id: 2
         config:
-          table: public.products
+          table: public.users
           mappings: []
         schedule:
           type: manual
