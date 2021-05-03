@@ -2,7 +2,7 @@ syncs:
   - model_id: 7
     destination_id: 2
     config:
-      table: public.products
+      table: public.repositories
       mappings: []
     schedule:
       type: manual
