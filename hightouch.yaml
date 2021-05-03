@@ -1,1 +1,8 @@
-
+syncs:
+  - model_id: 7
+    destination_id: 2
+    config:
+      table: public.logged_in
+      mappings: []
+    schedule:
+      type: manual
