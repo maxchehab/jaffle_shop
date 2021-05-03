@@ -1,7 +1,7 @@
 version: 2
 syncs:
   - model:
-      id: 8
+      id: 9
     destinations:
       - id: 5
         config:
