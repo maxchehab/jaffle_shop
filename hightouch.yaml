@@ -8,3 +8,39 @@ syncs:
       type: interval
       unit: day
       quantity: 20
+  - model_id: 9
+    destination_id: 6
+    config:
+      mode: upsert
+      type: object
+      object: user
+      mappings:
+        - to: email
+          from: email
+          type: standard
+        - to: first_name
+          from: first_name
+          type: standard
+        - to: last_name
+          from: last_name
+          type: standard
+      customMappings: []
+      externalIdMapping:
+        to: external_id
+        from: email
+    schedule:
+      type: manual
+  - model_id: 9
+    destination_id: 5
+    config:
+      mode: upsert
+      object: Contact
+      mappings:
+        - to: FirstName
+          from: first_name
+          type: standard
+      externalIdMapping:
+        to: email_key__c
+        from: email
+    schedule:
+      type: manual
