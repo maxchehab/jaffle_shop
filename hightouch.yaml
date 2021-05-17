@@ -90,3 +90,26 @@ syncs:
         from: email
     schedule:
       type: manual
+  - model_id: 13871
+    destination_id: 52620
+    config:
+      mode: upsert
+      object: Contact
+      mappings:
+        - to: FirstName
+          from: first_name
+          type: standard
+        - to: LastName
+          from: last_name
+          type: standard
+        - to: Email
+          from: email
+          type: standard
+        - to: is_hireable__c
+          from: hirable
+          type: standard
+      externalIdMapping:
+        to: email_key__c
+        from: email
+    schedule:
+      type: manual
