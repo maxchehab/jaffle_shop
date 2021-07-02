@@ -196,3 +196,10 @@ syncs:
         from: email
     schedule:
       type: manual
+  - model_id: 14501
+    destination_id: 53466
+    config:
+      mappings: []
+      autoSyncColumns: true
+    schedule:
+      type: manual
